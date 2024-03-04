@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #f8f9fcf2;
+}
+.header{
+   padding: 30px 0;
+   border-bottom: 1px solid #eeeef4;
+   background-color: #fff;
+}
+.container{
+   max-width: 1220px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+.navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.wrapper{
+   display: flex;
+   align-items: center;
+}
+.header__list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+   gap: 30px;
+   margin-left: 50px;
+}
+.header__link{
+   color: #101010;
+   font-family: "Plus Jakarta Sans";
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 150%;
+   text-decoration: none;
+}
+.header__btn{
+   width: 160px;
+   border-radius: 6px;
+   background: #101010;
+   color: rgb(255, 255, 255);
+   font-family: "Plus Jakarta Sans";
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 120%;
+   text-align: center;
+   padding: 10px 0;
+   border: 1px solid transparent;
+}
+.header__link:hover{
+   color: red;
+   transition: 0.4s ease-in-out;
+}
+.header__btn:hover{
+   background-color:transparent;
+   border: 1px solid #1aab7b;
+   color: #1aab7b;
+   transition: 0.4s ease-in-out;
+}
+.hero{
+   padding-top: 91px;
+}
+.hero__wrapper{
+   display: flex;
+}
+.hero__textbox{
+   width: 537px;
+}
+.hero__title{
+   color: #101010;
+   font-family: "Plus Jakarta Sans";
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 140%;
+}
+.hero__text{
+   color: #636f87;
+   font-family: "Plus Jakarta Sans";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 150%;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+.hero__btn{
+   width: 169px;
+   border-radius: 6px;
+   background-color: #1aab7b;
+   padding: 20px 0;
+   color: #ffffff;
+   font-family: "Plus Jakarta Sans";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 120%;
+   border: none;
+   border: 1px solid transparent;
+}
+.hero__btn:hover{
+   background-color: transparent;
+   border: 1px solid #1aab7b;
+   color: #101010;
+   transition: 0.3s ease-in-out;
+}
+.hero__image{
+   width: 592px;
+   height: 334px;
+}
+
+
+
+.help{
+    padding: 50px 0;
+    background-color: rgb(242, 244, 246);
+}
+.help__title{
+    text-align: center;
+    color: rgb(16, 16, 16);
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+.boxs1{
+   background-color: white;
+   border: 1px solid white;
+   width: 380px;
+   height: 380px;
+   margin: 20px;
+   padding: 38px;
+   border-radius: 20px;
+}
+
+.box2{
+   display: flex;
+   margin: 0px 210px;
+   width: 1180px;
+   height: 450px;
+   justify-content: space-between;
+}
